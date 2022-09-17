@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+        <test name="Alert Test">
+            <classes>
+                <class name="selenium.actions.Form2">
+                <methods>
+                    <include name="registrationForm"/>
+<!--                    <exclude name="alertTest1"/>-->
+                </methods>
+                </class>
+            </classes>
+        </test>
+    <!--    <test name="Navigation Test">
+            <classes>
+                <class name="selenium.navigation.NavigateSeleniumTest"/>
+            </classes>
+        </test>-->
+<!--    <test name="Alert Test">
+        <classes>
+            <class name="selenium.alert.AlertSeleniumTest">
+                <methods>
+                    <exclude name="alertTest1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite>
